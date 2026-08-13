@@ -4,14 +4,29 @@ using namespace std;
 
 int main()
 {
+	//주머니에 공이 64개, 그중 6개를 뽑음
+	//한판에 1000원
 
-	int sum = 0;
-	for (int i = 1; i <= 1000; i++)
+	srand((unsigned int)time(nullptr));
+
+	int Balls[64] = { 0 };
+	int random;
+	for (int i = 0; i < 6; i++)
 	{
-		sum += i;
+		random = rand() % 64;
+		if (Balls[random] == 1)
+		{
+			i--;
+		}
+		else
+		{
+			Balls[random] = 1;
+			cout << random + 1 <<endl;
+		}
 	}
-	cout << sum;
+
+	int price = 1000;
+	
 
 	return 0;
-
 }
