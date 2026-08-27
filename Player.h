@@ -1,13 +1,15 @@
 #pragma once
-#include "Charater.h"
+#include "AActor.h"
 
 #include <iostream>
-class APlayer:public ACharater
+using namespace std;
+
+class APlayer:public AActor
 {
 public:
 	APlayer()
 	{
-		this->Mesh = 'P';
+		this->CMesh = 'P';
 		cout << "Player »ý¼º" << endl;
 	}
 	~APlayer()

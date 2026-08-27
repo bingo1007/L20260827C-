@@ -9,6 +9,8 @@ public:
 	int MP;
 
 	char CMesh;
+	void Move();
+	void Attack();
 
 };
 

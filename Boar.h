@@ -1,12 +1,14 @@
 #include <iostream>
 #pragma once
 #include "AActor.h"
+using namespace std;
+
 class ABoar : public AActor
 {
 public:
 	ABoar()
 	{
-		this->Mesh = 'P';
+		this->CMesh = 'P';
 		cout << "Boar »ý¼º" << endl;
 	}
 	~ABoar()

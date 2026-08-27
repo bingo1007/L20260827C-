@@ -24,7 +24,7 @@
     <ClCompile Include="Class.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="20260827.cpp">
+    <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="AActor.cpp">
@@ -48,9 +48,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AActor.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Character.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Player.h">
