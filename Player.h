@@ -1,16 +1,18 @@
 #pragma once
 #include "Charater.h"
+
+#include <iostream>
 class APlayer:public ACharater
 {
 public:
 	APlayer()
 	{
 		this->Mesh = 'P';
-		cout << "持失" << endl;
+		cout << "Player 持失" << endl;
 	}
 	~APlayer()
 	{
-
+		cout << "Player 社瑚" << endl;
 	}
 };
 

@@ -1,6 +1,7 @@
 #pragma once
-#include "Monster.h"
-class AGoblin : public AMonster
+#include "AActor.h"
+#include <iostream>
+class AGoblin : public AActor
 {
 public:
 	AGoblin()

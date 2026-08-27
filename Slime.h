@@ -1,16 +1,18 @@
 #pragma once
-#include "Monster.h"
-class ASlime : public AMonster
+#include "AActor.h"
+
+#include <iostream>
+class ASlime : public AActor
 {
 public:
 	ASlime()
 	{
 		this->Mesh = 'S';
-		cout << "持失" << endl;
+		cout << "Slime 持失" << endl;
 	}
 	~ASlime()
 	{
-
+		cout << "Slime 社瑚" << endl;
 	}
 };
 

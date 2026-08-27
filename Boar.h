@@ -1,16 +1,17 @@
+#include <iostream>
 #pragma once
-#include "Monster.h"
-class ABoar : public AMonster
+#include "AActor.h"
+class ABoar : public AActor
 {
 public:
 	ABoar()
 	{
 		this->Mesh = 'P';
-		cout << "持失" << endl;
+		cout << "Boar 持失" << endl;
 	}
 	~ABoar()
 	{
-
+		cout << "Boar 社瑚" << endl;
 	}
 };
 

@@ -10,6 +10,7 @@ public:
 
 	char Mesh;
 
-	void Render();
+	void Move();
+	void Attack();
 };
 
