@@ -2,12 +2,10 @@
 
 using namespace std;
 
-int main()
+int main2()
 {
 	//블랙잭
 	//3장 3장, 숫자 계산 1 ~ 10, 그 이상은 10점
-
-
 	int Player[3];
 	int Computer[3];
 
