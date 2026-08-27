@@ -46,6 +46,7 @@ int main()
 	
 
 	delete MyPlayer;
+	MyPlayer = nullptr;
 
 	for (int i = 0; i < 3; i++)
 	{
@@ -61,6 +62,7 @@ int main()
 	}
 
 	delete WildBoar;
+	WildBoar = nullptr;
 
 	return 0;
 }
