@@ -6,6 +6,7 @@ public:
 	APlayer()
 	{
 		this->Mesh = 'P';
+		cout << "»ı¼º" << endl;
 	}
 	~APlayer()
 	{

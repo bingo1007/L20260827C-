@@ -6,6 +6,7 @@ public:
 	ASlime()
 	{
 		this->Mesh = 'S';
+		cout << "»ı¼º" << endl;
 	}
 	~ASlime()
 	{

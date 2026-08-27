@@ -6,6 +6,7 @@ public:
 	AGoblin()
 	{
 		this->Mesh = 'G';
+		cout << "»ı¼º" << endl;
 	}
 	~AGoblin()
 	{

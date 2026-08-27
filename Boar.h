@@ -6,6 +6,7 @@ public:
 	ABoar()
 	{
 		this->Mesh = 'P';
+		cout << "»ı¼º" << endl;
 	}
 	~ABoar()
 	{
