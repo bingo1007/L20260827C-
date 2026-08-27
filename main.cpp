@@ -46,8 +46,20 @@ int main()
 	
 
 	delete MyPlayer;
-	delete Slime;
-	delete Goblin;
+
+	for (int i = 0; i < 3; i++)
+	{
+		delete Slime[i];
+		Slime[i] = nullptr;
+	}
+
+	AGoblin* Goblin[2];
+	for (int i = 0; i < 2; i++)
+	{
+		delete Goblin[i];
+		Goblin[i] = nullptr;
+	}
+
 	delete WildBoar;
 
 	return 0;
