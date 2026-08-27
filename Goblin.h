@@ -3,5 +3,13 @@
 class AGoblin : public AMonster
 {
 public:
+	AGoblin()
+	{
+		this->Mesh = 'G';
+	}
+	~AGoblin()
+	{
+		
+	}
 };
 

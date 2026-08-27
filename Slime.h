@@ -3,6 +3,13 @@
 class ASlime : public AMonster
 {
 public:
+	ASlime()
+	{
+		this->Mesh = 'S';
+	}
+	~ASlime()
+	{
 
+	}
 };
 
